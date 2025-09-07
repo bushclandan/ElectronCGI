@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    /* app-wide default colors */
+    --appWindowBGColor: rgb(70, 75, 64);
+    --appWindowBorderColor: rgb(136, 138, 130);
+    --appTextColor: #ddd;
+        
+    --appHeaderBGColor: rgb(255,202,112);
+    --appHeaderTextColor: #333;
+    
+    --appLogoText: #333;
+    --appLogoTextAccent: rgb(207,72,66);
+    --appLogoTextAlt: #c00;
+    
+    --appNavBGColor: rgb(236,113,97);
+    --appNavItemBorderColor: rgb(114, 119, 104);
+    --appNavItemTextColor: rgb(53, 52, 50);
+    --appNavItemTextHoverColor: rgb(133, 127, 126);
+
+    --appContentBGColor: #fffff3;
+    --appContentTextColor: #333;
+    --appUserImgBorderColor:rgb(173, 175, 165);
+    --appUserImgHoverBGColor: #333;
+    --appUserCardNameTextColor: #333;
+
+    --appFooterBGColor: rgb(131,193,178);
+    --appFooterTextColor: #333;
+
+    --appDialogBorderColor: rgb(53, 52, 50);
+    --appDialogBGColor: rgb(160, 133, 86);
+}
+
+body
+{
+    background-color: var(--appContentBGColor);    
+    counter-set: maskList;
+    font-family: "Rubik";
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+h1
+{
+    color: var(--appLogoText);
+}
+
+.contentWrap
+{    
+    border: 6px solid var(--appWindowBorderColor);    
+    padding: 25px;
+    overflow: auto;
+    width: 80vw;
+    min-height: 800px;
+    background-color: var(--appContentBGColor);
+}
+
+#maskList
+{
+    padding: 25px;
+    display: flex;
+    justify-content: flex-start;    
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    gap: 10px; 
+}
+
+img.maskImg
+{
+    height: 100px;
+    width: 100px;
+    padding: 15px;
+    border-radius: 10%;
+    border: 4px solid var(--appUserImgBorderColor);    
+    transition: all .12s;
+    background-color: var(--appHeaderBGColor);
+}
+
+img.maskImg:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    color: var(--appNavItemTextHoverColor);
+    /* border-color: var(--appNavItemTextHoverColor); */
+    border-color: var(--appLogoTextAlt);
+
+}
+
+.mask::after
+{
+    counter-increment: maskList;
+    content: "Style " counter(maskList);
+    font-family: "Rozha One";
+    font-weight: 800;
+    color: var(--appLogoTextAlt);
+    font-size: 1.2em;
+    margin-left: 0px;
+    margin-top: 0px;
+    min-height: 50px;
+    display: block;
+}
