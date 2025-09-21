@@ -1,0 +1,15 @@
+{
+  "name": "electroncgi",
+  "version": "0.0.1",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "daniel e. bush",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^38.1.2"
+  }
+}
