@@ -1,9 +1,10 @@
 const { contextBridge, ipcRenderer } = require('electron')
+//const { ConnectionBuilder } = require('electron-cgi');
 
-contextBridge.exposeInMainWorld('versions', {
+contextBridge.exposeInMainWorld('appAPI', {
   node: () => process.versions.node,
   chrome: () => process.versions.chrome,
   electron: () => process.versions.electron,
-  ping: () => ipcRenderer.invoke('ping')
+  connBuilder: () => electron-cgi.ConnectionBuilder
   // we can also expose variables, not just functions
 })
