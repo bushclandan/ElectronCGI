@@ -11,7 +11,7 @@ var connection = new ConnectionBuilder()
 connection.On<string, string>("greeting", name =>
 {
 	Console.Error.WriteLine($"received {name}");
-	return "Hello " + name;
+	return $"Hello {name}";
 });
 
 // wait for incoming requests

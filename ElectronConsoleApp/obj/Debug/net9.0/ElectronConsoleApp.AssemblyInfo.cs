@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ElectronConsoleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac91dedb18e8d3bf1c431246ad5329efbe9fa445")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cccdf2af5d74e3cbea7afa084008ab881b9b4caf")]
 [assembly: System.Reflection.AssemblyProductAttribute("ElectronConsoleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ElectronConsoleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
