@@ -1,19 +1,19 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using ElectronCgi.DotNet;
 
-//...
-static void Main(string[] args)
+Console.Error.WriteLine("starting .net process");
+
+var connection = new ConnectionBuilder()
+					.WithLogging()
+					.Build();
+
+// expects a request named "greeting" with a string argument and returns a string
+connection.On<string, string>("greeting", name =>
 {
-	var connection = new ConnectionBuilder()
-						.WithLogging()
-						.Build();
+	Console.Error.WriteLine($"received {name}");
+	return "Hello " + name;
+});
 
-	// expects a request named "greeting" with a string argument and returns a string
-	connection.On<string, string>("greeting", name =>
-	{
-		return "Hello " + name;
-	});
+// wait for incoming requests
+connection.Listen();
 
-	// wait for incoming requests
-	connection.Listen();
-}
