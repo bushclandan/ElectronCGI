@@ -11,7 +11,7 @@ information.innerText = `This app is using Chrome (v${appAPI.chrome()}), Node.js
 let _connection = null;
 
 function setupConnectionToRestartOnConnectionLost() {    
-    _connection = appAPI.connBuilder().connectTo('dotnet', 'run', '--project', 'ElectronConsoleApp').build();
+    _connection = appAPI.connBuilder().connectTo('dotnet', 'run', '--project', 'ElectronConsoleApp').build();    
     _connection.onDisconnect = () => {
         alert('Connection lost, restarting...');
         setupConnectionToRestartOnConnectionLost();
@@ -20,12 +20,12 @@ function setupConnectionToRestartOnConnectionLost() {
 
 setupConnectionToRestartOnConnectionLost();
 
-console.log(">> sending Dan to .net");
+console.log('>> sending Dan to .net');
 _connection.send('greeting', 'Dan', greeting => {
-    console.log("   << received " + greeting + " from .net" ); // will print "Hello Dan!"  
+    console.error('   << received ' + greeting + ' from .net' );    
 });
 
 _connection.on('statusChanged', statusMsg => {
     //console.clear();
-    console.log("   << .Net status changed to " + statusMsg);
+    console.log('   << .Net status changed to ' + statusMsg);
 })
