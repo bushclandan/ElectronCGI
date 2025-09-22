@@ -9,7 +9,8 @@ var connection = new ConnectionBuilder()
 // expects a request named "greeting" with a string argument and returns a string
 connection.On<string, string>("greeting", name =>
 {
-	Console.Error.WriteLine($"received {name}");
+	connection.Send("statusChanged", $"received {name} from node");
+	Console.Error.WriteLine($"received {name} from node");
 	return $"Hello {name}";
 });
 
