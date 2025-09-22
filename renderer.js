@@ -21,5 +21,5 @@ function setupConnectionToRestartOnConnectionLost() {
 setupConnectionToRestartOnConnectionLost();
 
 _connection.send('greeting', 'Dan', greeting => {
-    console.log(greeting); // will print "Hello Dan!"  
+    console.log("received from .net: " + greeting); // will print "Hello Dan!"  
 });

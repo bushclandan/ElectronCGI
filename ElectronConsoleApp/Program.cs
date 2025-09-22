@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using ElectronCgi.DotNet;
+﻿using ElectronCgi.DotNet;
 
 Console.Error.WriteLine("starting .net process");
 
