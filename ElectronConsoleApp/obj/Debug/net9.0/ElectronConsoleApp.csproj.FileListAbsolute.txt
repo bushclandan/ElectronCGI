@@ -34,3 +34,5 @@ C:\Users\danie\Dropbox\_PROGRAMMING\Electron\ElectronCGI\ElectronConsoleApp\obj\
 C:\Users\danie\Dropbox\_PROGRAMMING\Electron\ElectronCGI\ElectronConsoleApp\obj\Debug\net9.0\ElectronConsoleApp.pdb
 C:\Users\danie\Dropbox\_PROGRAMMING\Electron\ElectronCGI\ElectronConsoleApp\obj\Debug\net9.0\ElectronConsoleApp.genruntimeconfig.cache
 C:\Users\danie\Dropbox\_PROGRAMMING\Electron\ElectronCGI\ElectronConsoleApp\obj\Debug\net9.0\ref\ElectronConsoleApp.dll
+C:\Users\danie\Dropbox\_PROGRAMMING\Electron\ElectronCGI\ElectronConsoleApp\bin\Debug\net9.0\System.Text.Encodings.Web.dll
+C:\Users\danie\Dropbox\_PROGRAMMING\Electron\ElectronCGI\ElectronConsoleApp\bin\Debug\net9.0\runtimes\browser\lib\net9.0\System.Text.Encodings.Web.dll

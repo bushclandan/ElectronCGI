@@ -54,6 +54,14 @@
             "ElectronCgi.DotNet": {
               "target": "Package",
               "version": "[1.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            },
+            "System.Text.Encodings.Web": {
+              "target": "Package",
+              "version": "[9.0.9, )"
             }
           },
           "imports": [

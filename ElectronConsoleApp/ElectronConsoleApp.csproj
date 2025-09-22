@@ -9,6 +9,8 @@
 
   <ItemGroup>
     <PackageReference Include="ElectronCgi.DotNet" Version="1.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="System.Text.Encodings.Web" Version="9.0.9" />
   </ItemGroup>
 
 </Project>

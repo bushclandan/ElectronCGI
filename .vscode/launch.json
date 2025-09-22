@@ -9,6 +9,11 @@
   ],
   "configurations": [
     {
+      "name": ".NET Core Attach",
+      "type": "coreclr",
+      "request": "attach"
+    },
+    {
       "name": "Renderer",
       "port": 9222,
       "request": "attach",
