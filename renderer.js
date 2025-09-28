@@ -1,6 +1,6 @@
-const information = document.getElementById('info')
+let information = document.getElementById('info')
 // information.innerText = `This app is using Chrome (v${appAPI.chrome()}), Node.js (v${appAPI.node()}), and Electron (v${appAPI.electron()})`
-information.innerText = "";
+information.innerText = "This is where the filepath will appear";
 
 let _connection = null;
 let mruDataPath = null;
@@ -39,10 +39,11 @@ btnTestSessionProgress.addEventListener('click', () =>
 //#end region
 
 //#region ipcMain process handlers
-window.appAPI.onLoadDataFile((dataPath) =>
+window.appAPI.onSetDataFile((filePath) =>
 {
-    console.log('   << loading school data from ' + dataPath);
-})
+    console.log('   << loading school data from ' + filePath);
+    information.innerText = filePath;
+});
 //#endregion
 
 //#region .net call functions

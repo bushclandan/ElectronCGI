@@ -4,9 +4,10 @@ const fs = require('fs');
 const settings = require('electron-settings');
 
 let dataPath = null;
+let win = null;
 
 const createWindow = () => {
-  const win = new BrowserWindow({
+  win = new BrowserWindow({
     width: 1200,
     height: 800,
     webPreferences: {
@@ -17,9 +18,18 @@ const createWindow = () => {
   })
 
   win.loadFile('index.html')
-  
-  // get app settings
-  loadAppSettings();
+  win.webContents.once("did-finish-load", () => {
+    console.log("did-finish-load");
+    loadAppSettings();
+  });
+
+  win.webContents.once("dom-ready", () => {
+    console.log("dom-ready");
+  });
+
+  win.once("ready-to-show", () => {
+    console.log("ready-to-show");
+  });
 
   // Open Dev Tools
   win.webContents.openDevTools()
@@ -33,11 +43,18 @@ app.whenReady().then(() => {
     })  
 })
 
+
+
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') app.quit()
 })
 
+
+
+
 //#region functions
+
+//called once webContents('did-finish-load') is called
 function loadAppSettings()
 {  
   //get all settings
@@ -54,8 +71,9 @@ function loadAppSettings()
   }
   const schoolDataPath = path.resolve(app.getPath('documents'),lastSchoolDataPath);
   //pass path to .net
-  win.webContents.send('onLoadDataFile', schoolDataPath);
-  console.log(schoolDataPath);
-
+  console.log('>> sending school data file path: ' + schoolDataPath);
+  win.webContents.send('setDataFile',schoolDataPath);
+  
+  
 }
 //#endregion
