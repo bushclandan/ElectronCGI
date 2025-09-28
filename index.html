@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta
       http-equiv="Content-Security-Policy"
       content="default-src 'self'; script-src 'self'"
@@ -11,16 +10,32 @@
       http-equiv="X-Content-Security-Policy"
       content="default-src 'self'; script-src 'self'"
     />
-    <title>Hello from Electron renderer!</title>
-    <div>
-      <input id="txtMessage" type="text" placeholder="Enter Message">
-      <button id="btnMessage">Send Message</button>
-    </div>
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+    <title>Hello from Electron renderer!</title>    
   </head>
   <body>
-    <h1>Hello from Electron renderer!</h1>
-    <p>👋</p>
-    <p id="info">Test</p>
+    <div class="contentWrap">
+      <div id="testCases">
+        <div>
+          <h1>Hello from Electron renderer!</h1>
+          <!-- <p>👋</p> -->
+          <p id="info">Test</p>
+        </div>
+        <div class="testCase">
+          <input id="txtMessage" type="text" placeholder="Enter Message">
+          <button id="btnTestSendMessage">Send Message</button>
+          <input id="txtMessageResponse" type="text" placeholder="Message Received">
+        </div>
+        <div id="testGetSchoolName" class="testCase">
+          <input id="txtSchoolName" type="text" placeholder="School Name">
+        </div>
+        <div id="testSessionProgress" class="testCase">
+          <!-- <span>Progress Bar Test</span> -->
+          <button id="btnTestSessionProgress">Get Progress</button>
+          <div id="progressBar"></div>
+        </div>
+      </div>
+    </div>
   </body>
   <script src="./renderer.js"></script>
 </html>

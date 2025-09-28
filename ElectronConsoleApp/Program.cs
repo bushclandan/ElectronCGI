@@ -6,12 +6,31 @@ var connection = new ConnectionBuilder()
 					.WithLogging()
 					.Build();
 
-// expects a request named "greeting" with a string argument and returns a string
+// greeting
 connection.On<string, string>("greeting", name =>
 {
 	connection.Send("statusChanged", $"received {name} from node");
 	Console.Error.WriteLine($"received {name} from node");
 	return $"Hello {name}";
+});
+
+//get School Name
+connection.On<string, string>("getSchoolName", value =>
+{
+	connection.Send("statusChanged", $"received request for school name from node");
+	Console.Error.WriteLine($"received request for school name from node");
+	return $"Gatepost School";
+});
+
+// get School session progress
+// returns a formatted string with session percentage (i.e. 73%)
+connection.On<string, string>("getSessionProgress", value =>
+{
+	Random random = new Random(DateTime.Now.Millisecond);
+	
+	connection.Send("statusChanged", $"received request for sessionProgress from node");
+	Console.Error.WriteLine($"received request for sessionProgress from node");
+	return $"{random.Next(5,95)}%";
 });
 
 // wait for incoming requests
