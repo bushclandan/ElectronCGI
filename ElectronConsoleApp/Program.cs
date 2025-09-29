@@ -1,9 +1,10 @@
 ﻿using ElectronCgi.DotNet;
+using Microsoft.Extensions.Logging;
 
 Console.Error.WriteLine("starting .net process");
 
 var connection = new ConnectionBuilder()
-					.WithLogging()
+					.WithLogging(minimumLogLevel: LogLevel.Trace, logFilePath: "the-log-file.txt")
 					.Build();
 
 // greeting

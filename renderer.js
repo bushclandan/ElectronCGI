@@ -6,9 +6,12 @@ let _connection = null;
 let mruDataPath = null;
 
 function setupConnectionToRestartOnConnectionLost() {    
-    _connection = appAPI.connBuilder().connectTo('dotnet', 'run', '--project', 'ElectronConsoleApp').build();     
+    _connection = appAPI.connBuilder()
+                .connectTo('dotnet', 'run', '--project', 'ElectronConsoleApp')
+                .build();
+    
     _connection.onDisconnect = () => {
-        console.log('Connection lost, restarting...');
+        logMessage('Connection lost, restarting...');
         setupConnectionToRestartOnConnectionLost();
     };
 }
@@ -20,6 +23,14 @@ setupConnectionToRestartOnConnectionLost();
 getSchoolName();
 getSessionProgress();
 
+//#endregion
+
+//#region general functions
+function logMessage(message)
+{
+    console.log(message);
+    // _connection.log(message);
+}
 //#endregion
 
 //#region page element event listeners
@@ -41,7 +52,7 @@ btnTestSessionProgress.addEventListener('click', () =>
 //#region ipcMain process handlers
 window.appAPI.onSetDataFile((filePath) =>
 {
-    console.log('   << loading school data from ' + filePath);
+    logMessage('   << loading school data from ' + filePath);
     information.innerText = filePath;
 });
 //#endregion
@@ -49,9 +60,9 @@ window.appAPI.onSetDataFile((filePath) =>
 //#region .net call functions
 function sendMessageToNet(message)
 {
-    console.log('>> sending ' + message + ' to .net');
+    logMessage('>> sending ' + message + ' to .net');
     _connection.send('greeting', message, (error, response) => {
-        console.log('   << received ' + response + ' from .net' ); 
+        logMessage('   << received ' + response + ' from .net' ); 
         document.getElementById('txtMessageResponse').value = response;   
     });
 }
@@ -59,8 +70,8 @@ function sendMessageToNet(message)
 function getSchoolName()
 {
     _connection.send('getSchoolName', null, (error, response) => {
-        console.log('>> startup: getting school name');
-        console.log('   << received ' + response + ' from .net');
+        logMessage('>> startup: getting school name');
+        logMessage('   << received ' + response + ' from .net');
         document.getElementById('txtSchoolName').value = response;
     })
 }
@@ -68,8 +79,8 @@ function getSchoolName()
 function getSessionProgress()
 {
     _connection.send('getSessionProgress', null, (error, response) => {
-        console.log('>> startup: getting session progress');
-        console.log('   << received ' + response + ' from .net');
+        logMessage('>> startup: getting session progress');
+        logMessage('   << received ' + response + ' from .net');
         document.getElementById('progressBar').style.width = response;
     })
 }
@@ -77,7 +88,7 @@ function getSessionProgress()
 
 //#region callback funtions
 _connection.on('statusChanged', statusMsg => {
-    console.log('   << Message from .Net: ' + statusMsg);
+    logMessage('   << Message from .Net: ' + statusMsg);
 })
 
 //#endregion

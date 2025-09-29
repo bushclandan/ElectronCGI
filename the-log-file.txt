@@ -1,0 +1,129 @@
+2025-09-28 17:18:16.018 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSchoolName","id":"829aedd6-5186-4fe3-8d98-8211935a1e8d","args":"null"}}	{"type": "REQUEST", "request": {"type":"getSessionProgress","id":"019f9fbc-2573-488d-9f6d-199e8865efaa","args":"null"}}	
+2025-09-28 17:18:16.105 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"724f3ae7-30e0-47ef-8e44-6db63ba5fb85","args":"received request for school name from node"}}
+2025-09-28 17:18:16.105 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"4f0e3f9a-15f0-4562-906f-4061c3e90b9d","args":"received request for sessionProgress from node"}}
+2025-09-28 17:18:16.106 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"724f3ae7-30e0-47ef-8e44-6db63ba5fb85","result":"null"}}	
+2025-09-28 17:18:16.107 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"Gatepost School","id":"829aedd6-5186-4fe3-8d98-8211935a1e8d"}}
+2025-09-28 17:18:16.107 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"4f0e3f9a-15f0-4562-906f-4061c3e90b9d","result":"null"}}	
+2025-09-28 17:18:16.108 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"55%","id":"019f9fbc-2573-488d-9f6d-199e8865efaa"}}
+2025-09-28 17:27:03.290 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSchoolName","id":"ef171b7e-7885-4c4c-bdfb-f448bf932c97","args":"null"}}	{"type": "REQUEST", "request": {"type":"getSessionProgress","id":"fcc75da0-9373-4784-9458-3d5406337a10","args":"null"}}	
+2025-09-28 17:27:03.390 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"91c8ea27-3a2f-4b88-96c1-c1d31aaf10c1","args":"received request for school name from node"}}
+2025-09-28 17:27:03.390 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"50351c5f-216a-48f0-a37e-7780875f4a3f","args":"received request for sessionProgress from node"}}
+2025-09-28 17:27:03.392 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"Gatepost School","id":"ef171b7e-7885-4c4c-bdfb-f448bf932c97"}}
+2025-09-28 17:27:03.392 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"85%","id":"fcc75da0-9373-4784-9458-3d5406337a10"}}
+2025-09-28 17:28:10.649 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSchoolName","id":"24af7f7c-e003-49dc-a926-bcd2b94c278e","args":"null"}}	{"type": "REQUEST", "request": {"type":"getSessionProgress","id":"ed540a87-2007-46e3-a332-08acc7eefe91","args":"null"}}	
+2025-09-28 17:28:10.772 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"4ae329eb-b5c7-4be8-8646-30b3b74c2ee6","args":"received request for school name from node"}}
+2025-09-28 17:28:10.773 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"49551526-5f95-436e-998b-d179424c4e16","args":"received request for sessionProgress from node"}}
+2025-09-28 17:28:10.773 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"4ae329eb-b5c7-4be8-8646-30b3b74c2ee6","result":"null"}}	
+2025-09-28 17:28:10.775 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"Gatepost School","id":"24af7f7c-e003-49dc-a926-bcd2b94c278e"}}
+2025-09-28 17:28:10.775 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"33%","id":"ed540a87-2007-46e3-a332-08acc7eefe91"}}
+2025-09-28 17:28:10.775 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"49551526-5f95-436e-998b-d179424c4e16","result":"null"}}	
+2025-09-28 17:28:15.434 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSessionProgress","id":"b3866e94-92a7-4bf3-9674-9e9ac828bc2e","args":"null"}}	
+2025-09-28 17:28:15.435 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"106106e2-2327-4fc2-af94-2ce346722f6a","args":"received request for sessionProgress from node"}}
+2025-09-28 17:28:15.435 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"46%","id":"b3866e94-92a7-4bf3-9674-9e9ac828bc2e"}}
+2025-09-28 17:28:15.436 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"106106e2-2327-4fc2-af94-2ce346722f6a","result":"null"}}	
+2025-09-28 17:28:16.025 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSessionProgress","id":"26612fe9-dc50-4510-b09f-92ce8eae74c4","args":"null"}}	
+2025-09-28 17:28:16.026 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"fb89be4a-29eb-4bdc-b79d-4dfd735b6397","args":"received request for sessionProgress from node"}}
+2025-09-28 17:28:16.026 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"32%","id":"26612fe9-dc50-4510-b09f-92ce8eae74c4"}}
+2025-09-28 17:28:16.028 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"fb89be4a-29eb-4bdc-b79d-4dfd735b6397","result":"null"}}	
+2025-09-29 10:12:35.872 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSchoolName","id":"39a9ac77-d9bb-4570-888f-7143b9ded266","args":"null"}}	{"type": "REQUEST", "request": {"type":"getSessionProgress","id":"034b2472-10c8-401c-82b2-73b3d870e22e","args":"null"}}	
+2025-09-29 10:12:36.235 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"b4d3c163-d072-4a31-994c-fac023884e71","args":"received request for sessionProgress from node"}}
+2025-09-29 10:12:36.235 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"203ca1d0-f957-4720-a8ea-fd3d67e91b24","args":"received request for school name from node"}}
+2025-09-29 10:12:36.236 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"b4d3c163-d072-4a31-994c-fac023884e71","result":"null"}}	
+2025-09-29 10:12:36.236 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"Gatepost School","id":"39a9ac77-d9bb-4570-888f-7143b9ded266"}}
+2025-09-29 10:12:36.236 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"24%","id":"034b2472-10c8-401c-82b2-73b3d870e22e"}}
+2025-09-29 10:12:36.238 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"203ca1d0-f957-4720-a8ea-fd3d67e91b24","result":"null"}}	
+2025-09-29 10:12:39.340 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSessionProgress","id":"c6a8d02f-69c4-497a-a4f2-955933b867a5","args":"null"}}	
+2025-09-29 10:12:39.341 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"c002cb06-5b4d-4ff8-b2e4-0b9525fe72a3","args":"received request for sessionProgress from node"}}
+2025-09-29 10:12:39.342 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"83%","id":"c6a8d02f-69c4-497a-a4f2-955933b867a5"}}
+2025-09-29 10:12:39.343 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"c002cb06-5b4d-4ff8-b2e4-0b9525fe72a3","result":"null"}}	
+2025-09-29 10:13:05.878 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSchoolName","id":"c0e14f78-ca0c-4ffe-8c42-6589eda6fe9e","args":"null"}}	{"type": "REQUEST", "request": {"type":"getSessionProgress","id":"c11f2742-27d4-4498-8085-3ac5437d9291","args":"null"}}	
+2025-09-29 10:13:05.997 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"fb93c674-afb4-45e4-a054-2be3d87242c5","args":"received request for sessionProgress from node"}}
+2025-09-29 10:13:05.997 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"e36e8c3a-50cc-43ec-9574-03bf5b6bb289","args":"received request for school name from node"}}
+2025-09-29 10:13:05.998 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"fb93c674-afb4-45e4-a054-2be3d87242c5","result":"null"}}	
+2025-09-29 10:13:05.998 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"Gatepost School","id":"c0e14f78-ca0c-4ffe-8c42-6589eda6fe9e"}}
+2025-09-29 10:13:05.999 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"78%","id":"c11f2742-27d4-4498-8085-3ac5437d9291"}}
+2025-09-29 10:13:06.000 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"e36e8c3a-50cc-43ec-9574-03bf5b6bb289","result":"null"}}	
+2025-09-29 10:13:23.288 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"greeting","id":"94512c34-2580-4e0f-8834-5ec7a344b661","args":"\"Dan\""}}	
+2025-09-29 10:13:23.289 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"ef96292f-f8ca-4b90-89ad-2946245ed1cf","args":"received Dan from node"}}
+2025-09-29 10:13:23.290 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"Hello Dan","id":"94512c34-2580-4e0f-8834-5ec7a344b661"}}
+2025-09-29 10:13:23.291 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"ef96292f-f8ca-4b90-89ad-2946245ed1cf","result":"null"}}	
+2025-09-29 10:14:10.311 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSessionProgress","id":"5883eddd-802d-4c85-ad4b-49bbaa525f02","args":"null"}}	
+2025-09-29 10:14:10.312 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"c355d73e-b1e8-4ef9-9375-5e300125b180","args":"received request for sessionProgress from node"}}
+2025-09-29 10:14:10.312 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"23%","id":"5883eddd-802d-4c85-ad4b-49bbaa525f02"}}
+2025-09-29 10:14:10.314 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"c355d73e-b1e8-4ef9-9375-5e300125b180","result":"null"}}	
+2025-09-29 10:14:11.530 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSessionProgress","id":"4a934b76-d602-4899-ab85-1e3864ea47f5","args":"null"}}	
+2025-09-29 10:14:11.531 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"925eb157-7945-4866-9973-6d6eba2af2b5","args":"received request for sessionProgress from node"}}
+2025-09-29 10:14:11.531 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"17%","id":"4a934b76-d602-4899-ab85-1e3864ea47f5"}}
+2025-09-29 10:14:11.533 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"925eb157-7945-4866-9973-6d6eba2af2b5","result":"null"}}	
+2025-09-29 10:14:12.712 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSessionProgress","id":"afec5493-90bd-48a3-b23a-ad775d884495","args":"null"}}	
+2025-09-29 10:14:12.713 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"6ea78829-741d-47f1-a4f3-f900207ea5ce","args":"received request for sessionProgress from node"}}
+2025-09-29 10:14:12.713 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"24%","id":"afec5493-90bd-48a3-b23a-ad775d884495"}}
+2025-09-29 10:14:12.715 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"6ea78829-741d-47f1-a4f3-f900207ea5ce","result":"null"}}	
+2025-09-29 10:14:13.110 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSessionProgress","id":"936d5297-b1ec-4a27-8aa5-8c4c9596c0c7","args":"null"}}	
+2025-09-29 10:14:13.111 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"33335b7a-06ca-4f56-8b91-8ec90bc8b65a","args":"received request for sessionProgress from node"}}
+2025-09-29 10:14:13.111 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"69%","id":"936d5297-b1ec-4a27-8aa5-8c4c9596c0c7"}}
+2025-09-29 10:14:13.113 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"33335b7a-06ca-4f56-8b91-8ec90bc8b65a","result":"null"}}	
+2025-09-29 10:14:13.341 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSessionProgress","id":"0d2232f9-1f09-4e21-bcb9-435b0347deea","args":"null"}}	
+2025-09-29 10:14:13.341 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"b9abaaca-e7db-47f4-81ce-7dc75cdf92a0","args":"received request for sessionProgress from node"}}
+2025-09-29 10:14:13.342 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"83%","id":"0d2232f9-1f09-4e21-bcb9-435b0347deea"}}
+2025-09-29 10:14:13.342 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"b9abaaca-e7db-47f4-81ce-7dc75cdf92a0","result":"null"}}	
+2025-09-29 10:14:13.528 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSessionProgress","id":"b0ed4fe4-969c-4840-92ff-2003c7ddd7cf","args":"null"}}	
+2025-09-29 10:14:13.529 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"333f2374-2fba-44cc-bb65-430582204353","args":"received request for sessionProgress from node"}}
+2025-09-29 10:14:13.529 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"13%","id":"b0ed4fe4-969c-4840-92ff-2003c7ddd7cf"}}
+2025-09-29 10:14:13.530 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"333f2374-2fba-44cc-bb65-430582204353","result":"null"}}	
+2025-09-29 10:14:13.723 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSessionProgress","id":"4c93a345-a7d4-4b1a-bcb1-0acb235d5159","args":"null"}}	
+2025-09-29 10:14:13.724 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"1e3308b0-fdef-41d2-bf07-a604eb9ca4ad","args":"received request for sessionProgress from node"}}
+2025-09-29 10:14:13.724 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"44%","id":"4c93a345-a7d4-4b1a-bcb1-0acb235d5159"}}
+2025-09-29 10:14:13.725 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"1e3308b0-fdef-41d2-bf07-a604eb9ca4ad","result":"null"}}	
+2025-09-29 10:14:13.924 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSessionProgress","id":"f74f4a98-3c04-4fe3-bdda-f614647f0100","args":"null"}}	
+2025-09-29 10:14:13.925 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"66df47bf-d627-4628-8f09-6f38eee65dc4","args":"received request for sessionProgress from node"}}
+2025-09-29 10:14:13.925 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"92%","id":"f74f4a98-3c04-4fe3-bdda-f614647f0100"}}
+2025-09-29 10:14:13.926 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"66df47bf-d627-4628-8f09-6f38eee65dc4","result":"null"}}	
+2025-09-29 10:14:14.110 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSessionProgress","id":"5ea7a82f-3312-49ba-bee7-4d549dc1cc4d","args":"null"}}	
+2025-09-29 10:14:14.111 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"77f8bf6e-9997-446f-962b-77b588d43ada","args":"received request for sessionProgress from node"}}
+2025-09-29 10:14:14.111 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"69%","id":"5ea7a82f-3312-49ba-bee7-4d549dc1cc4d"}}
+2025-09-29 10:14:14.112 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"77f8bf6e-9997-446f-962b-77b588d43ada","result":"null"}}	
+2025-09-29 10:14:14.303 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSessionProgress","id":"e3440bef-70f3-4740-ab90-4200d1db6e58","args":"null"}}	
+2025-09-29 10:14:14.304 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"d9b35216-c55c-4553-a420-a6a3bc11d52c","args":"received request for sessionProgress from node"}}
+2025-09-29 10:14:14.304 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"6%","id":"e3440bef-70f3-4740-ab90-4200d1db6e58"}}
+2025-09-29 10:14:14.305 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"d9b35216-c55c-4553-a420-a6a3bc11d52c","result":"null"}}	
+2025-09-29 10:14:14.496 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSessionProgress","id":"2008dda7-edc7-470f-b79e-a447d3aed37a","args":"null"}}	
+2025-09-29 10:14:14.497 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"e9fa832b-a9aa-4447-ba9a-583df5718b57","args":"received request for sessionProgress from node"}}
+2025-09-29 10:14:14.497 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"81%","id":"2008dda7-edc7-470f-b79e-a447d3aed37a"}}
+2025-09-29 10:14:14.498 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"e9fa832b-a9aa-4447-ba9a-583df5718b57","result":"null"}}	
+2025-09-29 10:14:14.672 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSessionProgress","id":"e56db30f-644e-4a67-a80d-767d71dfce78","args":"null"}}	
+2025-09-29 10:14:14.673 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"b7033857-3085-4016-a244-60713b8ec2dd","args":"received request for sessionProgress from node"}}
+2025-09-29 10:14:14.673 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"76%","id":"e56db30f-644e-4a67-a80d-767d71dfce78"}}
+2025-09-29 10:14:14.673 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"b7033857-3085-4016-a244-60713b8ec2dd","result":"null"}}	
+2025-09-29 10:14:14.857 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSessionProgress","id":"0dc794c3-169e-41c5-8a7f-d451dd50b9e8","args":"null"}}	
+2025-09-29 10:14:14.858 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"bd0ad3f1-0f48-42a2-975e-223b4b37466a","args":"received request for sessionProgress from node"}}
+2025-09-29 10:14:14.858 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"92%","id":"0dc794c3-169e-41c5-8a7f-d451dd50b9e8"}}
+2025-09-29 10:14:14.859 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"bd0ad3f1-0f48-42a2-975e-223b4b37466a","result":"null"}}	
+2025-09-29 10:14:15.052 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSessionProgress","id":"e07a8a4e-2b5b-462b-9895-da856b8f3f0c","args":"null"}}	
+2025-09-29 10:14:15.052 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"8a909cf9-d514-4aff-b128-d4c8ad072fc9","args":"received request for sessionProgress from node"}}
+2025-09-29 10:14:15.053 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"85%","id":"e07a8a4e-2b5b-462b-9895-da856b8f3f0c"}}
+2025-09-29 10:14:15.054 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"8a909cf9-d514-4aff-b128-d4c8ad072fc9","result":"null"}}	
+2025-09-29 10:14:15.228 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSessionProgress","id":"10f1b2a3-0331-4ca6-907c-4e4c39f11eec","args":"null"}}	
+2025-09-29 10:14:15.228 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"f8eda8c0-c242-4239-97e7-eb5f5d36d364","args":"received request for sessionProgress from node"}}
+2025-09-29 10:14:15.228 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"80%","id":"10f1b2a3-0331-4ca6-907c-4e4c39f11eec"}}
+2025-09-29 10:14:15.230 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"f8eda8c0-c242-4239-97e7-eb5f5d36d364","result":"null"}}	
+2025-09-29 10:14:15.422 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSessionProgress","id":"ddc6878e-6a91-4efa-a570-33bc650494d0","args":"null"}}	
+2025-09-29 10:14:15.423 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"532b1f8f-073e-4b15-88fb-4520c2665d1a","args":"received request for sessionProgress from node"}}
+2025-09-29 10:14:15.423 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"69%","id":"ddc6878e-6a91-4efa-a570-33bc650494d0"}}
+2025-09-29 10:14:15.423 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"532b1f8f-073e-4b15-88fb-4520c2665d1a","result":"null"}}	
+2025-09-29 10:14:15.632 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSessionProgress","id":"8fcaaad1-f486-4f16-8fea-9573ac9981fc","args":"null"}}	
+2025-09-29 10:14:15.633 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"6ebabe86-9dc2-43c7-8570-7b310fdf56b2","args":"received request for sessionProgress from node"}}
+2025-09-29 10:14:15.633 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"42%","id":"8fcaaad1-f486-4f16-8fea-9573ac9981fc"}}
+2025-09-29 10:14:15.634 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"6ebabe86-9dc2-43c7-8570-7b310fdf56b2","result":"null"}}	
+2025-09-29 10:14:15.819 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSessionProgress","id":"64b91e15-3277-48bc-8d07-e1cacfd12c1f","args":"null"}}	
+2025-09-29 10:14:15.819 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"e472c5bd-0b66-4f52-8be1-bc5646e41f2b","args":"received request for sessionProgress from node"}}
+2025-09-29 10:14:15.819 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"58%","id":"64b91e15-3277-48bc-8d07-e1cacfd12c1f"}}
+2025-09-29 10:14:15.827 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"e472c5bd-0b66-4f52-8be1-bc5646e41f2b","result":"null"}}	
+2025-09-29 10:14:15.990 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSessionProgress","id":"dcbb8a75-a979-466f-8b49-a7f8c0ecf1be","args":"null"}}	
+2025-09-29 10:14:15.991 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"43b4a88a-5247-452a-9eed-46b2068594ec","args":"received request for sessionProgress from node"}}
+2025-09-29 10:14:15.991 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"45%","id":"dcbb8a75-a979-466f-8b49-a7f8c0ecf1be"}}
+2025-09-29 10:14:15.993 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"43b4a88a-5247-452a-9eed-46b2068594ec","result":"null"}}	
+2025-09-29 10:14:16.191 -04:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"getSessionProgress","id":"7ce5b684-75fd-4b4c-aca1-7fc8e5afc490","args":"null"}}	
+2025-09-29 10:14:16.192 -04:00 [VRB] STDOUT: {"type":"REQUEST","request":{"type":"statusChanged","id":"5a4e501a-f1c2-41db-a14c-3626ee36e9f5","args":"received request for sessionProgress from node"}}
+2025-09-29 10:14:16.192 -04:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":"50%","id":"7ce5b684-75fd-4b4c-aca1-7fc8e5afc490"}}
+2025-09-29 10:14:16.193 -04:00 [VRB] STDIN: {"type": "RESPONSE", "response": {"id":"5a4e501a-f1c2-41db-a14c-3626ee36e9f5","result":"null"}}	
